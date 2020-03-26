@@ -1,5 +1,5 @@
 - name: print greeting
-  hosts: "localhost"
+  hosts: "*"
   tasks:
     - include_vars: name_vars.yml
 
